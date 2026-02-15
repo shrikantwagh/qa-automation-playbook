@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+chroma_store/
+*.bin
+data/*.pdf
+data/*.docx.pdf
+hf_data/
+assets/
+src/__pycache__/
+logs/

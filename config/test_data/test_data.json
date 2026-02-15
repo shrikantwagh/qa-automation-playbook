@@ -1,0 +1,48 @@
+{
+  "valid_users": [
+    {
+      "full_name": "John Doe",
+      "email": "john.doe@example.com",
+      "current_address": "123 Main Street, New York, NY 10001",
+      "permanent_address": "456 Oak Avenue, Boston, MA 02101"
+    },
+    {
+      "full_name": "Jane Smith",
+      "email": "jane.smith@test.com",
+      "current_address": "789 Elm Street, Chicago, IL 60601",
+      "permanent_address": "321 Pine Road, Seattle, WA 98101"
+    }
+  ],
+  "table_records": [
+    {
+      "first_name": "Alice",
+      "last_name": "Johnson",
+      "email": "alice.johnson@company.com",
+      "age": "28",
+      "salary": "55000",
+      "department": "Engineering"
+    },
+    {
+      "first_name": "Bob",
+      "last_name": "Williams",
+      "email": "bob.williams@company.com",
+      "age": "35",
+      "salary": "75000",
+      "department": "QA"
+    },
+    {
+      "first_name": "Carol",
+      "last_name": "Brown",
+      "email": "carol.brown@company.com",
+      "age": "42",
+      "salary": "90000",
+      "department": "Management"
+    }
+  ],
+  "invalid_emails": [
+    "invalid.email",
+    "@example.com",
+    "test@",
+    "test@@example.com"
+  ]
+}

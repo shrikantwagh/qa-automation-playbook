@@ -1,0 +1,25 @@
+# Core dependencies
+playwright==1.48.0
+pytest==8.3.4
+pytest-playwright==0.6.2
+
+# Test execution and reporting
+pytest-xdist==3.6.1  # Parallel test execution
+pytest-html==4.1.1   # HTML reports
+pytest-timeout==2.3.1  # Test timeouts
+allure-pytest==2.13.5  # Allure reporting
+
+# Utilities
+python-dotenv==1.0.1  # Environment variable management
+faker==30.8.2  # Test data generation
+pydantic==2.10.3  # Data validation
+
+# Logging and debugging
+pytest-logger==1.1.1
+colorlog==6.9.0
+
+# Code quality (optional, for development)
+black==24.10.0
+flake8==7.1.1
+pylint==3.3.2
+mypy==1.13.0
